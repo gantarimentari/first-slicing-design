@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: linear-gradient(225deg, #F0A04B, #c5d4b4);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 133px ;
+}
+
+
+.logo {
+  width: 124px;
+  height: 113px;
+}
+
+
+nav {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.login {
+  background-color: #ffea00;
+  padding: 10px 30px;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+
+.satu{
+  display: flex;
+  color:white;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0px;
+  gap: 50px;
+ 
+  
+}
+.teks {
+  width:400px ;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 10px;
+} 
+.adopt{
+  background-color: #ffea00;
+  padding: 10px 30px;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.dua {
+  background-color: #FCE7C8;
+  padding: 100px ;
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  align-items: center;
+  position: relative;
+  padding-top: 130px;
+  gap: 50px;
+  
+}
+.kiri{
+  display: flex;
+  flex-direction: column;
+}
+.kiri-bawah{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.dua h2{
+  font-size: 56px;
+  margin-top: 0;
+}
+.dua p{
+  font-size: 40px;
+  margin: 0;
+}
+.logo_kecil{
+  width: 61px;
+  height: auto;
+}
+.icon-paw{
+  position: relative;
+  top: -495px;
+  left: -10%;
+  transform: translateY(57%); 
+  z-index: 3; 
+  width: 10px;
+}
+
+
+
+.tiga{
+  background: linear-gradient(to bottom,  #FCE7C8 , #F0A04B 60% );
+  min-height: 800px;
+  padding: 100px;
+  position: relative;
+}
+.tiga h2{
+  color: #e38521;
+  font-style: italic;
+  font-size:64px ;
+  text-align: center;
+  padding-bottom: 35px;
+
+}
+.fitur-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 35px;
+
+}
+.fitur-item{
+  background-color: #ebedea;
+  padding: 40px;
+  border-radius: 32px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+
+}
+.fitur-item:hover {
+  transform: translateY(-10px);
+} 
+.fitur-icon{
+  border-radius: 15px;
+  width: 230px;
+  height: auto;
+}
+.tiga h3{
+  text-align: center;
+}
+.tiga p{
+  font-size: 14px;
+
+}
+
+
+.empat{
+  background: linear-gradient(to top, #FCE7C8 60%, #F0A04B );
+  padding: 100px;
+}
+.empat h2{
+  font-style: italic;
+  font-size:64px ;
+  text-align: center;
+  padding-bottom: 35px;
+  color: #ebedea;
+}
+.cus-container{
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 35px;
+  transition: transform 0.3s ease;
+}
+.fitur-testi{
+  background-color: #ebedea;
+  padding: 40px;
+  border-radius: 32px;
+  width: 500px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.fitur-testi:hover{
+  transform: translateY(-10px); 
+}
+.lima{
+  background-color: #F0A04B;
+  padding: 72px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.lima h2{
+  font-size:48px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.lima p{
+  font-size: 22px;
+  color: white;
+}
+.question{
+  font-weight: bold;
+}
+.enam{
+  background-color: #FCE7C8 ;
+  padding: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enam h3{
+  font-size: 32px;
+}
+.tombol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+.tangan{
+  width: 50px;
+  height: auto;
+}
+.enam button{
+  background-color: #ffea00;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  z-index: 0;
+}
+footer{
+  background-color: #F0A04B;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.about{
+  max-width: 500px;
+}
+footer h3{
+  padding-bottom: 20px;
+}
+footer section{
+  padding-right: 20px;
+  min-width: 200px;
+}
+footer li{
+  font-size: 24px;
+}
+footer a{
+  color: black;
+}
+
+@media (max-width: 1024px){
+  .brand{
+    width: 50px;
+  }
+
+}
